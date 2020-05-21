@@ -23,7 +23,7 @@ function Dashboard() {
     <div id="container">
         <aside>
             <h2>Marque sua presença</h2>
-                <img src="http://localhost:3333/aula/qrcode"
+                <img src="https://uniamerica-qrcode-backend.herokuapp.com/aula/qrcode"
                 alt="Marque sua Presença" />
         </aside>
         <main>

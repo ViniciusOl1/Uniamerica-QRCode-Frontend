@@ -11,10 +11,10 @@ function Dashboard() {
             const response = await api('/frequencia');
             setStudents(response.data);
         }
-
+        loadStudents();
         setTimeout(() => {
             loadStudents();
-        }, 10000);
+        }, 5000);
     }, []);
   return (
     <>

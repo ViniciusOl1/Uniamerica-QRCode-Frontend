@@ -12,13 +12,11 @@ function Dashboard() {
             setStudents(response.data);
         }
         loadStudents();
-        setTimeout(() => {
-            loadStudents();
-        }, 5000);
     }, []);
   return (
     <>
     <Header />
+    <meta http-equiv="refresh" content="10">
     <div id="container">
         <aside>
             <h2>Marque sua presença</h2>

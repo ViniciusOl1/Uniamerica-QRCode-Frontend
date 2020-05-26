@@ -73,4 +73,7 @@ section.presente-item span{
         gap: 20px;
         grid-template-columns: 1fr;
     }
+    main h2{
+        margin: 0;
+    }
 }

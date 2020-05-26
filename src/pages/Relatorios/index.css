@@ -36,3 +36,9 @@ section.relatorios{
     font-weight: 400;
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px){
+    section.relatorios .button{
+        font-size: 14px;
+    }
+}

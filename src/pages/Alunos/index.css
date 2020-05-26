@@ -5,7 +5,7 @@ main{
 
 section.title{
     display: flex;
-    grid-column: span 4;
+    grid-column: span 2;
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;

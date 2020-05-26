@@ -16,7 +16,7 @@ function Dashboard() {
   return (
     <>
     <Header />
-    <meta http-equiv="refresh" content="10">
+    <meta http-equiv="refresh" content="10" />
     <div id="container">
         <aside>
             <h2>Marque sua presença</h2>

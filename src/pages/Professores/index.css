@@ -47,3 +47,23 @@ section.professor-item span{
     color: #0b396d;
     font-weight: 500;
 }
+
+
+
+@media only screen and (max-width: 600px){
+    section.title .button{
+        background: #63B446;
+        border: 0;
+        border-radius: 6px;
+        color: white;
+        padding: 16px 20px;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    section.professores{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+}
+
